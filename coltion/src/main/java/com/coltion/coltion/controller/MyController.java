@@ -9,7 +9,8 @@ public class MyController {
 	@GetMapping("/api/test")
 	public String hello() {
 		
-		int a = 1;
+		int a = 2;
+		
 		return "Hello World";
 	}
 }
